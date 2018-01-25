@@ -35,7 +35,7 @@ See the Apache License Version 2.0 for the specific language governing permissio
     Guice is a lightweight dependency injection framework for Java 6 and above
   </description>
 
-  <url>https://github.com/google/guice</url>
+  <url>https://github.com/basis-technology-corp/guice</url>
   <inceptionYear>2006</inceptionYear>
 
   <organization>
@@ -61,19 +61,19 @@ See the Apache License Version 2.0 for the specific language governing permissio
   </mailingLists>
 
   <scm>
-    <connection>scm:git:git://github.com/google/guice.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/google/guice.git</developerConnection>
-    <url>https://github.com/google/guice</url>
+    <connection>scm:git:git://github.com/basis-technology-corp/guice.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/basis-technology-corp/guice.git</developerConnection>
+    <url>https://github.com/basis-technology-corp/guice</url>
   </scm>
 
   <issueManagement>
     <system>Google Code</system>
-    <url>https://github.com/google/guice/issues/</url>
+    <url>https://github.com/basis-technology-corp/guice/issues/</url>
   </issueManagement>
 
   <ciManagement>
     <system>Travis</system>
-    <url>https://travis-ci.org/google/guice</url>
+    <url>https://travis-ci.org/basis-technology-corp/guice</url>
   </ciManagement>
 
   <licenses>
