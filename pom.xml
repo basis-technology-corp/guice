@@ -85,14 +85,16 @@ See the Apache License Version 2.0 for the specific language governing permissio
   </licenses>
 
   <distributionManagement>
-    <!-- override the parent's directory to point to the canonical place, and use https. -->
     <repository>
-      <id>google-releases</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <id>basistech.repo</id>
+      <name>Basis Local Repository</name>
+      <url>http://maven.basistech.net/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
-      <id>google-snapshots</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <id>basistech.snapshot.repo</id>
+      <name>Basistech Local Snapshot Repository</name>
+      <url>http://maven.basistech.net/nexus/content/repositories/snapshots/</url>
+      <uniqueVersion>false</uniqueVersion>
     </snapshotRepository>
   </distributionManagement>
 
