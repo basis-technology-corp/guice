@@ -125,6 +125,7 @@ See the Apache License Version 2.0 for the specific language governing permissio
     -->
     <guice.with.no_aop>true</guice.with.no_aop>
     <gpg.skip>true</gpg.skip>
+    <nexus-staging-plugin-version>1.6.8</nexus-staging-plugin-version>
   </properties>
 
   <dependencyManagement>
@@ -434,6 +435,17 @@ See the Apache License Version 2.0 for the specific language governing permissio
             <goals><goal>sign</goal></goals>
           </execution>
         </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.sonatype.plugins</groupId>
+        <artifactId>nexus-staging-maven-plugin</artifactId>
+        <version>${nexus-staging-plugin-version}</version>
+        <extensions>true</extensions>
+        <configuration>
+            <serverId>basistech.repo</serverId>
+            <nexusUrl>http://nexus.basistech.net:8081/nexus/</nexusUrl>
+            <stagingProfileId>1dd11ca8866422</stagingProfileId>
+        </configuration>
       </plugin>
     </plugins>
   </build>
